@@ -5,9 +5,6 @@
 {% endblock %}
 
 {% block main %}
-<h1>Hi, {{ current_user.username }}!</h1>
-<p> Looking for some quarantine ideas?</p>
-<br><br>
  
     <article class="media content-section">
             <img class="rounded-circle article-img" src="{{url_for('static', filename='img/'+ post.author.image_file) }}">
